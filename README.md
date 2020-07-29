@@ -25,8 +25,10 @@ try with below requests
 Get - http://localhost:3000/posts
 
 Post - http://localhost:3000/posts with below body data in raw JSON format  
-        {
-            "title":"Fourth Post",
-            "description":"This is my fourth post from a Node server to MongoDB"
-        }
         
+ ```json
+ {
+    "title":"Fourth Post",
+    "description":"This is my fourth post from a Node server to MongoDB"
+ }
+```
